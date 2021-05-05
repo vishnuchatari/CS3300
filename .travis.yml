@@ -10,3 +10,11 @@ before_install:
 
 script:
  - bundle exec rspec
+ 
+deploy:
+ provider: heroku
+ api_key: 8e6f91cd-109a-474c-9e7d-0ddfa400be8f
+ app: glacial-woodland-37833
+ run: "rake db:migrate"
+ on:
+  all_branches: true
