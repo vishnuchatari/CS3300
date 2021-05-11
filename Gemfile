@@ -8,6 +8,10 @@ gem 'rails', '~> 5.2.4'
 # Use sqlite3 as the database for Active Record
 gem 'devise'
 
+gem 'bootstrap', '~> 4.6.0'
+
+gem 'jquery-rails'
+
 gem 'mini_racer'
 # Use Puma as the app server
 gem 'puma', '~> 3.11'
